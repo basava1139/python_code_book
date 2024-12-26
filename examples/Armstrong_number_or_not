@@ -1,0 +1,14 @@
+n=int(input("enter the number\t"))
+c_n=n
+sum=0
+order=len(str(n))
+#print(order)
+
+while(n>0):
+  digit=n%10
+  sum+=digit**order
+  n=n//10
+if (sum==c_n):
+    print(f"{c_n} is an amstrong number")
+else:
+    print(f"{c_n} is not an amstrong number")
