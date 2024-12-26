@@ -1,14 +1,13 @@
-n=int(input("enter the number\t"))
-c_n=n
+number=int(input("enter the number\n"))
+temp=number
+order=len(str(number))
 sum=0
-order=len(str(n))
-#print(order)
-
-while(n>0):
-  digit=n%10
-  sum+=digit**order
-  n=n//10
-if (sum==c_n):
-    print(f"{c_n} is an amstrong number")
+while temp>0:
+    digit=temp%10
+    sum+=digit**order
+    temp=temp//10
+    #print(temp)
+if sum==number:
+    print("number is amstrong")
 else:
-    print(f"{c_n} is not an amstrong number")
+    print("number is not amstrong")
