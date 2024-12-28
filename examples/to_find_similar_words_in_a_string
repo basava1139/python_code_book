@@ -1,0 +1,9 @@
+def common_letters():
+    s1=input("enter 1st string\t")
+    s2=input("enter the 2nd string\t")
+    s1=set(s1)
+    s2= set(s2)
+    cm=s1 & s2
+    print(cm)
+common_letters()    
+    
