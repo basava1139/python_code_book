@@ -1,0 +1,5 @@
+list = ['Geeksprogrammimg']
+string = list[0]
+print(string)
+update=string.replace('p','P')
+print(update)
