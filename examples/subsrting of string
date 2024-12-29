@@ -1,0 +1,7 @@
+def subsring(strin1,n):
+    for i in range(n):
+        for j in range(i+1,n+1):
+         print(strin1[i:j])
+strin1="Basavaraj"
+n=len(strin1)
+subsring(strin1,n)
