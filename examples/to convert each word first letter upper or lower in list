@@ -1,0 +1,11 @@
+list = ["basava", "Raj"]
+
+converted_list = []
+for word in list:
+    if word[0].islower():  # Check if the first letter is lowercase
+        converted_word = word[0].upper() + word[1:]  # Convert the first letter to uppercase
+    else:  # If the first letter is uppercase
+        converted_word = word[0].lower() + word[1:]  # Convert the first letter to lowercase
+    converted_list.append(converted_word)
+
+print(converted_list)
