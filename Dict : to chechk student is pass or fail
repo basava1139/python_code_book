@@ -1,0 +1,15 @@
+dict={'raj':39,
+      'basu':45,
+      "vishnu":51
+}
+
+status={}
+
+for student,marks in dict.items():
+    if marks>50:
+        status[student]="pass"
+    else:
+        status[student]="Fail"
+
+for student,results in status.items():
+    print(f"the result is {student} is {results}")
