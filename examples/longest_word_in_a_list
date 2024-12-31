@@ -1,0 +1,12 @@
+words = ["apple", "banana", "cherryeeyee", "blueberry"]
+longest_word = ""
+longest_length = 0
+
+for word in words:
+    if len(word) > longest_length:
+        longest_word = word
+        longest_length = len(word)
+        
+
+print("The longest word is:", longest_word)
+print("The length of the longest word is:", longest_length)
