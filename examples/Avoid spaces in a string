@@ -1,0 +1,19 @@
+# initializing string
+test_str = 'geeksforgeeks 33 is   best'
+ 
+# printing original string
+print("The original string is : " , test_str)
+ 
+# initializing count = 0
+count = 0
+ 
+# loop to iterate the string, character by character
+for i in test_str:
+    if i == ' ':
+        continue
+    count += 1
+     
+# printing result 
+print("The Characters Frequency avoiding spaces : " , count) 
+ 
+# This code is contributed by Pratik Gupta (guptapratik)
