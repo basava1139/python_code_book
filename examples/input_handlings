@@ -13,3 +13,21 @@ match input("Do this or that?\n"):
 		do_that()
 	case _:
 		print("Invalid input")
+
+def do_add(a,b):
+	print("doing add")
+	print(a+b)
+def do_sub(a,b):
+	print("Doing Sub")
+	print(a-b)
+
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+
+match input("Do add or sub?\n"):
+	case 'add':
+		do_add(a,b)
+	case 'sub':
+		do_sub(a,b)
+	case _:
+		print("enter valid input")
