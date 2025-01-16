@@ -1,0 +1,15 @@
+def do_this():
+	print("Doing this")
+	print("HI")
+
+def do_that():
+	print("Doing that")
+	print("hey ")
+
+match input("Do this or that?\n"):
+	case 'this':
+		do_this()
+	case 'that':
+		do_that()
+	case _:
+		print("Invalid input")
