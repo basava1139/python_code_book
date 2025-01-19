@@ -11,3 +11,16 @@ def frequency_counts():
     print(d)    
     
 frequency_counts()    
+
+
+
+orr
+
+
+string="as u can u can"
+list=string.split()
+d={}
+
+for i in list:
+    d[i]=d.get(i,0)+1
+print(d)  
